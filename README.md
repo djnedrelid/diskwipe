@@ -2,7 +2,9 @@
 
 GNU/Linux programvare for hotswap sletting av disker på sektornivå (utnulling / zero pass).  
 
-En lokal nettside via et python skript viser status for tilkoblede disker og arbeid. Denne oppdaterer seg selv i nærmest sanntid.  
+En lokal nettside via et python skript viser status for tilkoblede disker og arbeid.  
+Denne oppdaterer seg selv i nærmest sanntid.  
+
 ![Example UI_1](1.png) 
 
 Programmet kan kjøres i et ISO miljø som f.eks. SystemRescue, bare tilpass skriptet å bruke terminalen som distribusjonen din
