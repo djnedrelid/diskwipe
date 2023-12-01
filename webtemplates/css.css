@@ -1,0 +1,86 @@
+BODY {
+    background-color: #fff;
+    color: #000;
+    font-family: arial;
+    font-size: 12px;
+}
+
+#main {
+    border: 0px solid #000;
+}
+
+#header {
+    background-image: url("/gfx=logo-no-background-1.png");
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#blir_slettet {
+    border-left: 2px solid #ccc;
+    margin-left: 200px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#ferdig_slettet {
+    border-left: 2px solid #ccc;
+    margin-left: 200px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#footer {
+    clear: both;
+    text-align: left;
+    color: #666;
+    font-style: italic;
+    margin-left: 200px;
+    font-size: 11px;
+}
+
+#ui_sist_oppdatert {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    border-radius: 10px;
+    padding: 10px;
+    color: #999;
+    font-style: italic;
+    font-size: 12px;
+    width: 350px;
+    overflow-y: scroll;
+}
+
+#aktiv_diskliste_header,
+#slettet_diskliste_header {
+    font-style: italic;
+    font-weight: bold;
+    color: #999;
+    font-size: 16px;
+    border-bottom: 2px solid #999;
+    padding-bottom: 5px;
+}
+
+.fildato {
+    font-style: italic;
+    font-weight: bold;
+    color: #999;
+}
+
+.slettestatus1 {
+    color: green;
+}
+.slettestatus2 {
+    color: red;
+}
+.merknader {
+    margin-left: 100px;
+}
